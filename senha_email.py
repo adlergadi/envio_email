@@ -1,0 +1,1 @@
+senha_app = 'eemc kzkr tkby vkdp'
