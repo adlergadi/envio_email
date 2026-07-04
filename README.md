@@ -2,23 +2,28 @@
 
 ## Descrição
 
-Realizar o envio automático de e-mails com anexos utilizando Python através do protocolo SMTP.
+Projeto simples de estudo para envio automático de e-mails com anexos usando Python e SMTP.
 
-### Objetivos
+## Funcionalidades
 
-- Enviar e-mails programaticamente.
-- Definir destinatários principais, cópia (CC) e cópia oculta (BCC).
-- Enviar o conteúdo do e-mail em formato HTML.
-- Anexar automaticamente todos os arquivos presentes em uma pasta específica.
+- Envio de e-mail usando Gmail SMTP.
+- Corpo do e-mail em HTML.
+- Envio com destinatário principal, cópia e cópia oculta.
+- Anexo automático dos arquivos dentro da pasta `Anexos`.
 
-## Ferramentas
+## Tecnologias utilizadas
 
 - Python
+- smtplib
+- email.mime
+- os
 
-* Bibliotecas:
-  - smtplib
-  - email.message
-  - email.mime.multipart
-  - email.mime.text
-  - email.mime.application
-  - os
+## Estrutura do projeto
+
+```text
+envio-email/
+├── envio_email.py
+├── config_exemplo.py
+├── README.md
+├── .gitignore
+└── anexos/

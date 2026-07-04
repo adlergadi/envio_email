@@ -1,0 +1,6 @@
+config.py
+senha_email.py
+__pycache__/
+*.pyc
+anexos/*
+!anexos/.gitkeep
